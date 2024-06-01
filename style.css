@@ -145,6 +145,7 @@ li:hover {
 .discografia {
   background-color: rgba(153, 205, 50, 0.373);
   text-align: center;
+  padding-bottom: 3rem;
   width: 100%;
   position: relative;
   top: 23rem;

@@ -21,7 +21,8 @@ body {
 }
 
 header {
-  background-color: white;
+  background-image: url(./assets/images/background_header.png);
+  background-color: ivory;
   box-shadow: 10px 10px 10px #0006;
   padding: 0.5rem;
   position: sticky;

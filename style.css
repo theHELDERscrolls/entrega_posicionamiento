@@ -92,7 +92,6 @@ button:focus {
   position: absolute;
   padding: 1rem;
   margin: 1rem 0rem 1rem 0rem;
-  /* left: 75%; */
   text-align: center;
   text-wrap: wrap;
 }
@@ -150,6 +149,7 @@ li:hover {
   width: 100%;
   position: relative;
   top: 23rem;
+  padding-bottom: 7rem;
 }
 
 .discografia > h2 {
@@ -157,7 +157,7 @@ li:hover {
   background-color: rgba(153, 205, 50, 0.81);
   filter: drop-shadow(2px 2px 2px #0005);
   position: sticky;
-  top: 12%
+  top: 12%;
 }
 
 .discos {
@@ -170,13 +170,13 @@ li:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .discos > img{
+  .discos > img {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1280px) {
-  .discos > img{
+  .discos > img {
     width: 40%;
   }
 }
@@ -193,13 +193,12 @@ li:hover {
 }
 
 footer {
-  /* border: 5px solid red; */
   background-color: ivory;
   box-shadow: 5px 5px 5px 5px #0005;
   padding: 1rem;
   text-align: center;
   font-weight: bold;
   width: 100%;
-  position: relative;
-  top: 23rem;   
+  position: fixed;
+  top: 40.6rem;
 }
